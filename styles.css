@@ -1,5 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
 .gridContainer {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     border: 1px;
@@ -9,6 +21,7 @@
 
 .gridRow {
     display: flex;
+    align-self: stretch;
     flex: 1;
 }
 
