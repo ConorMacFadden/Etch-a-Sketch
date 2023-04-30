@@ -1,8 +1,15 @@
 .gridContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border: 1px;
     border-style: solid;
+    aspect-ratio: 1/1;
+}
+
+.gridRow {
+    display: flex;
+    flex: 1;
 }
 
 .gridSquare {
