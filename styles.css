@@ -1,0 +1,17 @@
+.gridContainer {
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-style: solid;
+}
+
+.gridSquare {
+    border: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    color: lightgrey;
+}
+
+.colorSquare {
+
+}
