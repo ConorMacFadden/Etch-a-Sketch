@@ -9,8 +9,15 @@
     align-items: stretch;
 }
 
+.controlsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10% 0px 10%; 
+}
+
 .gridContainer {
     display: flex;
+    padding: 0px 10% 0px 10%; 
     flex: 1;
     flex-direction: column;
     justify-content: center;
